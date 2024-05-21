@@ -189,5 +189,6 @@ load_track.ko
 pn553_tms.ko
 tms_nfc_module.ko
 tms_common_module.ko
+chipone-tddi.ko
 tkv.ko
 tkv_recovery.ko
