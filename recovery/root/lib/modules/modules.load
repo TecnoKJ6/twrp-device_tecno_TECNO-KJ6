@@ -58,9 +58,6 @@ cmdq-platform-mt6789.ko
 cmdq_helper_inf.ko
 mtk-mml.ko
 mtk_panel_ext.ko
-tran_drm_panel_i2c.ko
-ili7807s_fhdp_dsi_vdo_dsc_txd_boe_120hz_lh7n.ko
-ft8726_fhdp_dsi_vdo_dsc_tm_tm_120hz_lh7n.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -73,6 +70,7 @@ musb_hdrc.ko
 musb_main.ko
 mtk-pmic-wrap.ko
 mt635x-auxadc.ko
+mt6577_auxadc.ko
 mt6397.ko
 mt63xx-debug.ko
 mtk-spmi-pmic.ko
@@ -83,7 +81,6 @@ cqhci.ko
 mtk-mmc-autok.ko
 mtk-mmc-dbg.ko
 mtk-mmc.ko
-sd_tray.ko
 phy-mtk-ufs.ko
 rpmb.ko
 rpmb-mtk.ko
@@ -93,15 +90,19 @@ blocktag.ko
 pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko
+regulator-vibrator.ko
 i2c-mt65xx.ko
+icnl9922c_fhdp_dsi_vdo_txd_boe_120hz_kj6.ko
+ft8725_fhdp_dsi_vdo_txd_inx_120hz_kj6.ko
 rtc-mt6397.ko
 mt6789_dcm.ko
 mtk_dcm.ko
 clk-chk-mt6789.ko
 spi-mt65xx.ko
-rt9471.ko
+sgm41516d.ko
 extdev_io_class.ko
 rt5133-regulator.ko
+et5904.ko
 clkbuf.ko
 teeperf.ko
 mcDrvModule.ko
@@ -130,7 +131,6 @@ tran_battery_aging.ko
 mtk_pd_charging.ko
 mtk_pep20.ko
 mtk_pep.ko
-mt6577_auxadc.ko
 mtk_charger_framework.ko
 rt_pd_manager.ko
 mt6358_battery.ko
@@ -143,6 +143,7 @@ extcon-mtk-usb.ko
 tcpci_late_sync.ko
 mtk-dvfsrc-helper.ko
 mtk-dvfsrc-devfreq.ko
+cache-parity.ko
 pmic_lbat_service.ko
 reset-ti-syscon.ko
 mtk_slbc.ko
@@ -157,9 +158,11 @@ mac80211.ko
 tinysys-scmi.ko
 mtk-mbox-mailbox.ko
 irq-dbg.ko
+tran_drm_panel_i2c.ko
+tran_expand_key.ko
+tran_fp.ko
+tran_rhi.ko
 mtk-socinfo.ko
+sd_tray.ko
 tkv.ko
 tkv_recovery.ko
-tran_rhi.ko
-tran_fp.ko
-tran_expand_key.ko
