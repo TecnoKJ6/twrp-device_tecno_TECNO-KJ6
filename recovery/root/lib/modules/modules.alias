@@ -153,6 +153,8 @@ alias of:N*T*Crichtek,hl7138 hl7138
 alias of:N*T*Crichtek,hl7138C* hl7138
 alias of:N*T*Crichtek,hl7139 hl7138
 alias of:N*T*Crichtek,hl7139C* hl7138
+alias of:N*T*Cchipone,cap_touch chipone_tddi
+alias of:N*T*Cchipone,cap_touchC* chipone_tddi
 alias i2c:hl7138 hl7138
 alias of:N*T*Cmediatek,gpueb gpueb
 alias of:N*T*Cmediatek,gpuebC* gpueb
